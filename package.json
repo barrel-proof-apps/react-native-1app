@@ -1,0 +1,67 @@
+{
+  "_args": [
+    [
+      "react-native-1app@4.7.5",
+      "/Users/azuercher/workspace/meridian-mobile"
+    ]
+  ],
+  "_from": "react-native-1app@4.7.5",
+  "_id": "react-native-1app@4.7.5",
+  "_inBundle": false,
+  "_integrity": "sha512-ko1/EJrw3WasWONqjJO4XRDJkh/yw0Y8XS/hWl2deRyM658ALskiMKnTXtsYREXxnUSgAJa/O/qEyxNAm4R8yA==",
+  "_location": "/react-native-1app",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "react-native-1app@4.7.5",
+    "name": "react-native-1app",
+    "escapedName": "react-native-1app",
+    "rawSpec": "4.7.5",
+    "saveSpec": null,
+    "fetchSpec": "4.7.5"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-1app/-/react-native-1app-4.7.5.tgz",
+  "_spec": "4.7.5",
+  "_where": "/Users/azuercher/workspace/meridian-mobile",
+  "dependencies": {
+    "buffer": "^5.2.1",
+    "create-react-class": ">=15.6.2",
+    "moment": "^2.17.0",
+    "react-native-dismiss-keyboard": "^1.0.0",
+    "react-native-image-picker": "^0.26.4",
+    "react-native-image-zoom-viewer": "^2.2.25",
+    "react-native-material-textfield-1app": "^0.9.2",
+    "react-native-modal-datetime-picker": "^4.11.0",
+    "react-native-modalbox": "^1.6.0",
+    "react-native-photo-view": "^1.5.2",
+    "react-native-popup-dialog": "^0.16.3",
+    "react-native-qrcode": "^0.2.6",
+    "react-native-smooth-swipe-list": "^1.4.7",
+    "react-native-snackbar-component": "^1.0.7",
+    "react-native-super-grid": "^3.0.3",
+    "react-native-vector-icons": "^4.3.0",
+    "rgba-convert": "^0.3.0",
+    "vanilla-masker": "^1.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-flow-react-proptypes": "^5.0.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1"
+  },
+  "main": "index.js",
+  "name": "react-native-1app",
+  "private": false,
+  "scripts": {
+    "compile": "node ./node_modules/.bin/babel  --plugins transform-react-jsx --ignore src/DrawerLayout.js  src --out-dir lib",
+    "copy": "cp -R lib  ~/projects/vero/project/node_modules/react-native-1app/lib",
+    "delete-lib": "rm -rf ../../vero/project/node_modules/react-native-1app/lib",
+    "dev": "npm run compile;npm run delete-lib; npm run copy",
+    "start": "npm run compile",
+    "test": "rm -rf ../../meridian/meridian-mobile/node_modules/react-native-1app;npm run compile; npm start"
+  },
+  "version": "4.7.5"
+}
